@@ -18,6 +18,7 @@ body{
 	width: 100%;
 	background-color: #000;
 	z-index: 1000;
+	min-width: 600px;
 }
 .top-menu-btn{
 	position: relative;
@@ -44,6 +45,7 @@ body{
 .box{
 	position: relative;
 	width: 100%;
+	min-width: 600px;
 }
 #ad-box{
 	height: 200px;
@@ -120,7 +122,6 @@ body{
 	top: 50%;
 	transform: translate(-50%,-50%);
 	min-width: 40%;
-	max-width: 50%;
 	color: #fff;
 	font-size: 30px;
 	text-align: center;
@@ -135,6 +136,7 @@ body{
 	width: 100%;
 	height: 5px;
 	background: linear-gradient(to right, #755b34, #111, #400);
+	min-width: 600px;
 }
 #box1{
 	margin-bottom: -4px;
@@ -148,7 +150,7 @@ body{
 #box2-title{
 	position: absolute;
 	left: 25%;
-	top: 30%;
+	top: 50%;
 	transform: translate(-50%,-50%);
 	width: 40%;
 	color: #fff;
@@ -162,21 +164,18 @@ body{
 	width: 200px;
 }
 #box3{
-	height: 1000px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 	background-color: #aaa;
+	text-align: center;
 }
 .box3-card{
-	position: absolute;
+	position: relative;
 	height: 900px;
+	margin: 25px;
 	width: 550px;
-	top: 50px;
 	background-color: #222;
-}
-#box3-card1{
-	right: 51%;
-}
-#box3-card2{
-	left: 51%;	
+	display: inline-block;
 }
 .box3-card-title{
 	position: relative;
@@ -356,6 +355,7 @@ body{
 #addition-top-menu{
 	color: #fff;
 	text-align: right;
+	min-width: 600px;
 }
 #addition-top-menu a{
 	text-decoration: none;
@@ -440,4 +440,26 @@ body{
 }
 #box6 table th:hover img{
 	transform: scale(1.1);
+}
+@media(max-width: 1000px){
+	#box1-title{
+		width: 90%;
+		left: 50%;
+	}
+}
+@media(max-width: 890px){
+	#box2-title{
+		width: 90%;
+		left: 50%;
+	}
+}
+@media(max-width: 810px){
+	#box4-more{
+		width: 90%;
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+	#box2-title-img{
+		display: none;
+	}
 }
