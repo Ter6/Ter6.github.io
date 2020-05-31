@@ -120,7 +120,7 @@ body{
 	top: 50%;
 	transform: translate(-50%,-50%);
 	min-width: 40%;
-	color: #fff;
+	color: #777;
 	font-size: 30px;
 	text-align: center;
 }
@@ -154,6 +154,7 @@ body{
 	color: #444;
 	font-size: 30px;
 	text-align: center;
+	text-shadow: 5px 5px 4px #000;
 }
 #box2-title a{
 	text-decoration: none;
@@ -161,7 +162,6 @@ body{
 #box2-title-img{
 	width: 200px;
 }
-
 .tmb-menu{
 	position: absolute;
 	background-color: rgba(0,0,0,0.8);
